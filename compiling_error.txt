@@ -1,0 +1,20 @@
+/home/user/wc/dict.c: In function ‘up’:
+/home/user/wc/dict.c:9:12: warning: implicit declaration of function ‘toupper’ [-Wimplicit-function-declaration]
+     (a+i)= toupper(a+i);
+            ^
+/home/user/wc/dict.c:9:10: error: lvalue required as left operand of assignment
+     (a+i)= toupper(a+i);
+          ^
+/home/user/wc/dict.c: In function ‘main’:
+/home/user/wc/dict.c:13:10: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+   char a="abcdef";
+          ^
+/home/user/wc/dict.c:14:6: warning: passing argument 1 of ‘up’ makes pointer from integer without a cast [-Wint-conversion]
+   up(a);
+      ^
+/home/user/wc/dict.c:4:6: note: expected ‘char *’ but argument is of type ‘char’
+ void up(char* a)
+      ^
+/home/user/wc/dict.c:15:10: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+   printf("%s\n",a );
+          ^

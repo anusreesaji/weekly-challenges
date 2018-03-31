@@ -10,14 +10,14 @@ int main() {
       scanf("%d ",&n);
     scanf("%[R,G,B]s",s);printf("%s",s);
     for (i=0;i<(n-1);i++)
-        
+
     {   if(s[i]=='\0')
           {break;}
         else if(s[i]==s[i+1])
            {
-                c++;        
+                c++;
             }
     }
-    printf("\n%d",c); 
+    printf("\n%d",c);
     return 0;
 }
